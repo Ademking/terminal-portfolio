@@ -1,0 +1,26 @@
+{
+  "name": "ademkouki",
+  "version": "1.0.0",
+  "description": "Adem Kouki - Portfolio",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ademkouki"
+  ],
+  "bin": {
+    "ademkouki": "bin/index.js"
+  },
+  "author": "Adem Kouki",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "chalk": "^5.0.1",
+    "clear": "^0.1.0",
+    "got": "^12.0.4",
+    "terminal-image": "^2.0.0"
+  }
+}
